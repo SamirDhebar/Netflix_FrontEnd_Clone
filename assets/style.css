@@ -1,0 +1,51 @@
+#header {
+  background: black;
+  color:white;
+  overflow: auto;
+  padding-right: 25px;
+  padding-left: 25px;
+}
+
+.logo {
+  display: inline-block;
+  float: left;
+  background-color: red;
+  padding: 20px;
+  margin-right: 25px;
+}
+
+.leftMenu {
+  float: left; /* default floats to the left */
+  display: inline-block;
+  background-color: blue;
+}
+
+.leftMenu ul {
+  list-style: none; /* removes the default styling */
+  padding: 0;
+  margin: 0;
+}
+
+.leftMenu li {
+  display: inline-block;
+  padding: 20px;
+}
+
+.rightMenu {
+  float: right;
+  display: inline-block;
+  color: black;
+  background-color: yellow;
+}
+
+
+.rightMenu ul {
+  list-style: none; /* removes the default styling */
+  padding: 0;
+  margin: 0;
+}
+
+.rightMenu li {
+  display: inline-block;
+  padding: 20px;
+}
