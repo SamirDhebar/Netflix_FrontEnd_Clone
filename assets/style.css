@@ -6,6 +6,15 @@
   padding-left: 25px;
 }
 
+#header a{
+  text-decoration: none;/* get rid of underlined text for links */
+  font-family: helvetica;
+}
+
+#header a:hover {
+  color: red;
+}
+
 .logo {
   display: inline-block;
   float: left;
@@ -17,7 +26,7 @@
 .leftMenu {
   float: left; /* default floats to the left */
   display: inline-block;
-  background-color: blue;
+
 }
 
 .leftMenu ul {
@@ -31,11 +40,20 @@
   padding: 20px;
 }
 
+.leftMenu li a{
+  color:white;
+}
+
+.leftMenu li a.dropdown{
+  color:red;
+}
+
+
 .rightMenu {
   float: right;
   display: inline-block;
   color: black;
-  background-color: yellow;
+
 }
 
 
@@ -48,4 +66,63 @@
 .rightMenu li {
   display: inline-block;
   padding: 20px;
+}
+
+.rightMenu li a{
+  color:white;
+}
+
+#largeImage {
+  padding:200px 25px;
+  background: -webkit-linear-gradient(45deg, rgba(234,31,17,.25) 0%, #000000 100%), url(https://boygeniusreport.files.wordpress.com/2017/03/dave-chappelle.jpg?quality=98&strip=all) no-repeat left center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size:cover;
+}
+
+.description-box {
+  width: 25%;
+}
+.description-box h1 {
+  margin: 0;
+  color: white;
+  font-weight: 600;
+  font-size: 50px;
+}
+
+.description-box h3 {
+  color: red;
+  font-size: 35px;
+}
+
+.description-box h4 {
+  color: red;
+  font-size: 35px;
+}
+
+.description-box h5 {
+  color: white;
+  font-weight: 600;
+  font-size: 35px;
+}
+
+
+.button1 {
+  display: inline-block;
+  padding: 12px 20px;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+.button2 {
+  display: inline-block;
+  padding: 12px 20px;
+  background: #000;
+  color: #fff;
+}
+
+.button1:hover, .button2:hover {
+  background:rgba(0,0,0,.6);
 }
