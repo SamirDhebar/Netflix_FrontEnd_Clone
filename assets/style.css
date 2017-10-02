@@ -74,7 +74,7 @@
 
 #largeImage {
   padding:200px 25px;
-  background: -webkit-linear-gradient(45deg, rgba(234,31,17,.25) 0%, #000000 100%), url(https://boygeniusreport.files.wordpress.com/2017/03/dave-chappelle.jpg?quality=98&strip=all) no-repeat left center;
+  background: -webkit-linear-gradient(45deg, rgba(234,31,17,.25) 0%, #000000 100%), url(https://i.imgur.com/OyBqR8z.jpg) no-repeat left center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -113,16 +113,81 @@
   padding: 12px 20px;
   background: #000;
   color: #fff;
+  border: black;
+    border-style: solid;
   cursor: pointer;
 }
 
 .button2 {
   display: inline-block;
   padding: 12px 20px;
-  background: #000;
-  color: #fff;
+  color: white;
+  border: black;
+    border-style: solid;
+  /*background: #000;*/
+  background-color: 45deg, rgba(234,31,17,.25) 0%, #000000 100%;
 }
 
 .button1:hover, .button2:hover {
   background:rgba(0,0,0,.6);
+}
+
+#videoSection{
+  width:100%;
+  background:black;
+}
+
+.row{
+  font-size: 0;
+  width:100%;
+}
+
+.videoBoxes{
+  background:red;
+  width:15%;
+  margin:2.5%;
+  display: inline-block;
+  height:150px;
+  font-size:16px;
+
+}
+
+.video1{
+  background: url(https://i.imgur.com/UQcs5NJ.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size:cover;
+}
+
+.video2{
+  background: url(https://cdn.inquisitr.com/wp-content/uploads/2016/06/Orange-Is-The-New-Black-Season-5-Spoilers.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size:cover;
+}
+
+.video3{
+  background: url(https://i.imgur.com/mi7nukT.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size:cover;
+}
+
+.video4{
+  background: url(https://i.imgur.com/Dy9eG8o.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size:cover;
+}
+
+.video5{
+  background: url(https://i.imgur.com/MVdXXfg.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size:cover;
 }
