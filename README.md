@@ -15,4 +15,4 @@
 Please read the [contribution guidelines](Contributing.md) first.
 
 ## License
-* This Netflix-inspired project is available the under the [MIT License](https://github.com/samirdhebar/Netflix_FrontEnd_Clone/blob/master/LICENSE.md).
+* This Netflix clone project is available the under the [MIT License](https://github.com/samirdhebar/Netflix_FrontEnd_Clone/blob/master/LICENSE.md).
